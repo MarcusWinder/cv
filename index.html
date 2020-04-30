@@ -1,0 +1,90 @@
+<!DOCTYPE html> <!-- boiler plate -->
+<html lang="en" dir="ltr">
+<!-- this tells browser it is html. Nothing to do here -->
+
+<head>
+  <meta charset="utf-8"> <!-- this says we are using unicode, this is the standard developers use. There are more meta elements -->
+  <title>Marcus's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td><img src="Marcus.jpg" alt="Profile"></td>
+      <!-- creating a table for the photo and the description allows us to place one next to
+        the other using html. -->
+      <td>
+        <h1>Marcus Winder</h1>
+        <p><em><strong><a href="https://www.appbrewery.co/">App Brewery</a></strong> Student</em></p>
+        <!-- em is for italics, dont use the i tag,
+        strong is for bold -->
+        <p> I am currently studying coding to open my own online store. I have previously worked in luxury retail
+          management and tourism. I live in Spain with my husband, 2 cats and a dog</p>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <h3>Education</h3>
+  <ul>
+    <!-- unordered list ie not numbered or lettered -->
+    <li>Forres Academy
+    <li><a href="https://www.napier.ac.uk/">Napier College</a></li>
+    <!-- the anchor href to create a hyper link, after the link chooose the text that will be clicked on to go to the link
+    <li>App Brewery</li> -->
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table cellspacing="10">
+    <!-- to show we will do a table. YOu can Then add the attribute border to add the border, but not reccommended as its ugly -->
+    <thead>
+      <!-- to show the table header. You can do this by adding the th cells directly into the table as long as they are to keep the same format.
+    See module 20 at 6mins and 10 seconds -->
+      <tr>
+        <th>Dates</th> <!-- these are the table head cell elements to name the columns -->
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!--to say that the following will be the body of the table following on from the header -->
+      <tr>
+        <td>2010-2013</td> <!-- the table data i.e what you want to put in the cell. -->
+        <td>Lead Developer at Temp App</td>
+      </tr>
+      <tr>
+        <td>2010</td>
+        <td>Researcher at The Institute of Congnitive Neurosciences</td>
+      </tr>
+  </table cellspacing="10">
+  <hr>
+  <h3>Skills</h3>
+  <table>
+    <tr>
+    <td>iOS Development</td>
+    <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Photography</td>
+      <td>⭐⭐</td>
+    </tr>
+      <tr>
+      <td>Web Development</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+  </table>
+
+  <tfoot>
+
+  </tfoot>
+
+  </table>
+
+  <hr>
+  <a href="Hobbies.html">My Hobbies</a> <!-- you can add a hyperlink to another code file as long as it is in the same folder, in this case Hobbies.html -->
+  <br>
+  <a href="Contact me.html">Contact Me</a>
+
+
+</body>
+
+</html>

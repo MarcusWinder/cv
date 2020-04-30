@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact details</h1>
+    <ol>
+      <li>Email: marcuswinder66@gmail.com</li> <!-- could have used <p>
+         for each line too -->
+      <li>Phone: 343343434334</li>
+    </ol>
+<hr>
+    <form action="mailto:marcuswinder66@gmail.com" method="post" enctype="text/plain">
+      <!-- to create a form to be filled out. To create a form you always need the label and input elements Acton element tells browser what should happen
+   when the submit button is pressed. By default it will show "index.html" which is the homepage. This has a lot more functionality using CSS and Javascript. YOu still can do other things like "mailto" as in the code you add the destination email address, delete tthe "class attribute and
+   add the element " enctype" then text plain to say to copy the text as it is inputted -->
+
+      <label>Your Name:</label> <!-- name of the form -->
+
+      <input type="text" name="Your Name" value=""><br> <!-- there are many attributes for the input element so check them out on mdn
+        such as color, checkbox, submit, file (to upload a file Date to choose date etc)-->
+          <label>Your Email:</label>
+      <input type="email" name="Your Email" value=""><br> <!-- Creates a box to type in a passwork, the characters typed into the box are replaced by dots to keep confidentiality -->
+            <!-- input type="checkbox" name="" value="">  adds a checkbox to tick on the page. If you try to type in an email without the @ in the field it will pop up an error message. The "mame element
+            is used to name the line in this case the line would read Your Name=Marcus Your Email=marcuswinder66@gmail.com Your Message=Hi!  on the email message generated -->
+            <label>Your Message:</label><br>
+            <textarea name="Your Message" rows="10" cols="30"></textarea><br> <!-- rows are tall the text area should be and columns determine how wide they should be. Ie the nu;mber of rows and number of columnds
+               in the text area. You can click and drag bottom right corner of the box to change the size. -->
+      <input type="submit"> <!-- for the submit input you have to delete the value attribute -->
+
+    </form>
+  </body>
+</html>
